@@ -2,7 +2,7 @@
 
 namespace AreaCalculation
 {
-    public class Circle
+    public class Circle : IShapes
     {
         private double _radius;
 

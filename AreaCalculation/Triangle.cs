@@ -2,7 +2,7 @@
 
 namespace AreaCalculation
 {
-    public class Triangle
+    public class Triangle : IShapes
     {
         private double _sideA;
         private double _sideB;
@@ -64,12 +64,3 @@ namespace AreaCalculation
 
     }
 }
-/*
- * public static bool IsRectangularTriangle(double a, double b, double c)
-        {
-            return IsExistTriangle(a, b, c) &&
-                  (Math.Abs(a * a - (b * b + c * c)) < 0.1
-                || Math.Abs(b * b - (a * a + c * c)) < 0.1
-                || Math.Abs(c * c - (b * b + a * a)) < 0.1);
-        }
- */
